@@ -1,0 +1,263 @@
+body{
+    background-color: rgb(218, 218, 218);
+    padding: 0;
+    margin: 0;
+    
+}
+
+li{
+    font-family: "Questrial", sans-serif;
+}
+
+#containerHeader{
+    background-color: black;
+}
+
+#headerReservation{
+    font-family: "Questrial", sans-serif;
+    color: whitesmoke;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-left: 300px;
+}
+
+header{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+header li{
+    display: inline;
+    padding-left: 40px;
+}
+
+header li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+    transition: .4s ease;
+}
+
+header li a:hover{
+    color: lightblue;
+
+}
+
+header ul #btnLogIn a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(104, 0, 0);
+    padding: 10px;
+    float: right;
+    position: relative;
+    font-size: 20px;
+    font-family: "Questrial", sans-serif;
+    top: -10px;
+    right: 25px;
+}
+
+header ul #scytexLogo a{
+    float: left;
+}
+
+#firstPhoto{
+    width: 100%;
+    height: 600px;
+    margin-top: -22px;
+}
+
+#containerTextFirst{
+    border-color: black;
+    color: white;
+}
+
+#textMessageMainPage{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+}
+
+#textSedaNuvali{
+    font-family: "Questrial", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#textDescriptionSeda{
+    text-align: center;
+    font-family: sans-serif;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#secondPhoto{
+    width: 100%;
+}
+
+#thirdPhoto{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#containerPromotionFamilySuite{
+    background-color: rgb(255, 223, 223);
+    border-radius: 90%;
+    position: absolute;
+    top: 260%;
+    left: 75%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+    width:200px;
+}
+
+#bookNowText{
+    width: 200px;
+    text-align: center;
+    color: rgb(255, 115, 64);
+    font-family: "Questrial", sans-serif;
+}
+
+#textFamilySuite{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#btnBookNow{
+    position: absolute;
+    top: 300%;
+    left: 43%;
+    font-size: 20px;
+    padding: 20px;
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+    width:250px;
+    color: white;
+    background-color: transparent;
+}
+
+#headerNoteText{
+    margin-left: -40px;
+    font-family: "Questrial", sans-serif;
+}
+
+#notesTextContainer{
+    margin-left: 400px;
+    width: 800px;
+    font-size: 20px;
+}
+
+#premierRoomText{
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+#fourthPhoto{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#containerPromotionPremierRoom{
+    background-color: rgb(255, 223, 223);
+    border-radius: 90%;
+    position: absolute;
+    top: 400%;
+    left: 75%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+    width:200px;
+}
+
+#btnBookNow2{
+    position: absolute;
+    top: 460%;
+    left: 43%;
+    font-size: 20px;
+    padding: 20px;
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+    width:250px;
+    color: white;
+    background-color: transparent;
+}
+
+#notesTextContainerPremierRoom{
+    margin-left: 400px;
+    width: 800px;
+    font-size: 20px;
+}
+
+#executiveDeluxeText{
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+#fifthPhoto{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#notesTextContainerExecutiveDeluxe{
+    margin-left: 400px;
+    width: 800px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#containerPromotionExecutiveDeluxe{
+    background-color: rgb(255, 223, 223);
+    border-radius: 90%;
+    position: absolute;
+    top: 550%;
+    left: 75%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+    width:200px;
+}
+
+#btnBookNow3{
+    position: absolute;
+    top: 607%;
+    left: 43%;
+    font-size: 20px;
+    padding: 20px;
+    border-color: white;
+    border-width: 4px;
+    width:250px;
+    color: white;
+    background-color: transparent;
+}
+
+#amenitiesText{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    
+}
+
+#amenitiesText #amenitiesColumn1{
+    float: left;
+    width: 350px;
+}
+
+#amenitiesText #amenitiesColumn2{
+    float: right;
+    width: 350px;
+}
