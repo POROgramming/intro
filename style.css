@@ -1,10 +1,153 @@
+/* start */
+*{
+    font-family: 'Questrial';
+}
 body{
     background-color: rgb(218, 218, 218);
     padding: 0;
     margin: 0;
-    
 }
 
+.hotelRooms{
+    display:none;
+}
+.imgSection{
+    max-width: 1980px;
+    height: 700px;
+    margin-top: -10px;
+}
+
+.roomContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .room {
+      max-width: 461px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+  }
+  .room img {
+      width: 100%;
+      max-height: 350px;
+  }
+  .titleSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    min-width: none;
+}
+
+.titleSection h5 {
+    min-width: 300px;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .titleSection {
+    padding: 30px 100px;
+  }
+
+  .titleSection h3 {
+    min-width: unset;
+    max-width: 500px;
+  }
+}
+.taglineSection{
+    margin-top: 3%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.lineContainer{
+    margin-top: 3%;
+  }
+  .lines{
+    width: 100%;
+    height: 45px;
+    position: relative;
+  
+  }
+  .lines::after, .lines::before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    border:2px solid black;
+    width: 45%;
+    top: 20%;
+  }
+  .lines:after{
+    left:0;
+  }
+  .lines:before{
+    right: 0;
+  }
+  
+  .circles{
+    height: 40px;
+    width: 40px;
+    border:2px solid black;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+  }
+.bookButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 50px;
+  
+}
+.service p{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 200px;
+    max-width: 200px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+}
+#pBookText{
+   text-align: center;
+   word-wrap: break-word;
+   max-width: 700px;
+}
+.row img{
+    width: 100%;
+    height: 258px; 
+}
+  /*end*/
+  
 li{
     font-family: "Questrial", sans-serif;
 }
