@@ -7,12 +7,19 @@ body{
     padding: 0;
     margin: 0;
 }
-
+footer{
+    display: none;
+}
 .hotelRooms{
     display:none;
 }
 .homePage{
-    display: block;
+    display: none;
+}
+.bookingPage{
+    margin-top: -8px;
+    position: relative;
+    display: none;
 }
 .imgSection{
     max-width: 1980px;
@@ -153,6 +160,84 @@ body{
 }
   /*end*/
   
+  /*Booking Page*/
+.imgBooking{
+    width: 100%;
+    height: 500px;;
+}
+#bookingTitle{
+    position: absolute;
+    left: 11%;
+    top: 10%;
+    color: white;
+    font-size: 30px;
+    float: left;
+    transform:translate(-50%,-50%);
+    border: 2px solid black;
+    padding: 20px;
+    background: black;
+    border-radius: 6px;
+}
+.dateContainer{
+    width: 1200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}   
+.formContainer{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+}
+#btnChkAvail{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #181818;
+    margin: auto;
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[type="date"]{
+    background-color: #181818;
+    padding: 15px;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    width: 300px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#dropdown{
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    margin-left: 2%;
+    color: white;
+    background-color: #181818;
+}
+.formContainer{
+    max-height: 900px;
+    max-width: 100%;
+}
+/**/
+
 li{
     font-family: "Questrial", sans-serif;
 }
