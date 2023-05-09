@@ -14,7 +14,7 @@ footer{
     display:none;
 }
 .homePage{
-    display: none;
+    display: block;
 }
 .bookingPage{
     margin-top: -8px;
