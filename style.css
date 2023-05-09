@@ -11,10 +11,10 @@ footer{
     display: none;
 }
 .hotelRooms{
-    display:none;
+    display:block;
 }
 .homePage{
-    display: block;
+    display: none;
 }
 .bookingPage{
     margin-top: -8px;
@@ -295,30 +295,35 @@ header ul #scytexLogo a{
     float: left;
 }
 
+/* HOTEL ROOMS PAGE CSS */
+#containerPage1{
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
 #firstPhoto{
     width: 100%;
     height: 600px;
     margin-top: -22px;
 }
 
-#containerTextFirst{
-    border-color: black;
-    color: white;
-}
-
 #textMessageMainPage{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 35%;
     font-size: 30px;
     padding: 20px;
-    border-color: black;
+    border: 3px solid black;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: 32px;
 }
 
 #textSedaNuvali{
     font-family: "Questrial", sans-serif;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 #textDescriptionSeda{
@@ -326,70 +331,75 @@ header ul #scytexLogo a{
     font-family: sans-serif;
     width: 1000px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 #secondPhoto{
     width: 100%;
 }
 
+/* jr.suite css */
+#firstPromoContainer{
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
 #thirdPhoto{
     width: 100%;
-    height: 500px;
+    height: 650px;
     object-fit: cover;
     object-position: center;
 }
 
-#containerPromotionFamilySuite{
+#containerPromotionJuniorSuite{
     background-color: rgb(255, 223, 223);
     border-radius: 90%;
     position: absolute;
-    top: 260%;
+    top: 10%;
     left: 75%;
     font-size: 30px;
     padding: 20px;
     border-color: black;
     width:200px;
+    height: 120px;
 }
 
 #bookNowText{
-    width: 200px;
-    text-align: center;
+    position: absolute;
     color: rgb(255, 115, 64);
     font-family: "Questrial", sans-serif;
 }
 
-#textFamilySuite{
+#textJuniorSuite{
     font-family: sans-serif;
     text-align: center;
     margin-top: 40px;
 }
 
-#btnBookNow{
+.btnBookNowJrSuite{
     position: absolute;
-    top: 300%;
-    left: 43%;
+    left: 43.5%;
+    bottom: 15%;
     font-size: 20px;
     padding: 20px;
-    border-color: rgb(255, 255, 255);
+    border-color: white;
     border-width: 4px;
     width:250px;
     color: white;
     background-color: transparent;
 }
 
-#headerNoteText{
-    margin-left: -40px;
-    font-family: "Questrial", sans-serif;
+/* Deluxe Twin css */
+#secondPromoContainer{
+    position: relative;
+    width: 100%;
+    height: 650px;
 }
 
-#notesTextContainer{
-    margin-left: 400px;
-    width: 800px;
-    font-size: 20px;
-}
-
-#premierRoomText{
+#deluxeTwinText{
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     font-family: "Questrial", sans-serif;
 }
@@ -401,22 +411,22 @@ header ul #scytexLogo a{
     object-position: center;
 }
 
-
-#containerPromotionPremierRoom{
+#containerPromotionDeluxeTwin{
     background-color: rgb(255, 223, 223);
     border-radius: 90%;
     position: absolute;
-    top: 400%;
+    top: 10%;
     left: 75%;
     font-size: 30px;
     padding: 20px;
     border-color: black;
     width:200px;
+    height: 120px;
 }
 
-#btnBookNow2{
+.btnBookNowDeluxeTwin{
     position: absolute;
-    top: 460%;
+    bottom: 10%;
     left: 43%;
     font-size: 20px;
     padding: 20px;
@@ -427,62 +437,138 @@ header ul #scytexLogo a{
     background-color: transparent;
 }
 
-#notesTextContainerPremierRoom{
-    margin-left: 400px;
-    width: 800px;
-    font-size: 20px;
+/* bussinessDeluxeSingle CSS */
+#thirdPromoContainer{
+    position: relative;
+    width: 100%;
+    height: 650px;
 }
 
-#executiveDeluxeText{
+#businessDeluxeText{
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     font-family: "Questrial", sans-serif;
 }
 
-#fifthPhoto{
-    width: 100%;
-    height: 650px;
-    object-fit: cover;
-    object-position: center;
-}
-
-#notesTextContainerExecutiveDeluxe{
-    margin-left: 400px;
-    width: 800px;
-    font-size: 20px;
-    margin-bottom: 50px;
-}
-
-#containerPromotionExecutiveDeluxe{
+#containerPromotionBusinessDeluxe{
     background-color: rgb(255, 223, 223);
     border-radius: 90%;
     position: absolute;
-    top: 550%;
+    top: 10%;
     left: 75%;
     font-size: 30px;
     padding: 20px;
     border-color: black;
     width:200px;
+    height: 120px;
 }
 
-#btnBookNow3{
+.btnBookNowBusinessDeluxe{
     position: absolute;
-    top: 607%;
+    bottom: 10%;
     left: 43%;
     font-size: 20px;
     padding: 20px;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
     border-width: 4px;
     width:250px;
     color: white;
     background-color: transparent;
 }
 
+/* 4. DELUXE QUEEN */
+#fourthPromoContainer{
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+#deluxeQueenText{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+#containerPromotionDeluxeQueen{
+    background-color: rgb(255, 223, 223);
+    border-radius: 90%;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+    width:200px;
+    height: 120px;
+}
+
+.btnBookNowDeluxeQueen{
+    position: absolute;
+    bottom: 10%;
+    left: 43%;
+    font-size: 20px;
+    padding: 20px;
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+    width:250px;
+    color: white;
+    background-color: transparent;
+}
+
+/* room amenities and inclusion css */
+#amenitiesInclusionHeader{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin-top: -30px;
+}
+#headerAmenities{
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 40%;
+}
+
+#headerInclusion{
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    right: 330px;
+    top: 40%;
+}
+
+#roomAmenitiesAndInclusion{
+    width: 100%;
+    position: relative;
+}
+
+#roomAmenitiesAndInclusion{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#roomAmenitiesAndInclusion #roomAmenitiesColumn1{
+    float: left;
+    width: 350px;
+    margin-right: 50px;
+}
+
+#amenitiesText #roomInclusionColumn2{
+    float: right;
+    width: 350px;
+}
+
+/* amenities (hotel room) */
 #amenitiesText{
     width: 900px;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-    
+    margin-top: 140px;
 }
 
 #amenitiesText #amenitiesColumn1{
